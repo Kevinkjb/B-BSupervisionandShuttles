@@ -975,6 +975,7 @@ textarea.error-input {
 .footer-list a{
     text-decoration: none;
     color: var(--white-color);
+    font-weight: 500;
 }
 .footer-list a:hover{
     color: var(--hover-color);
