@@ -51,6 +51,21 @@ body{
     display: none;
 }
 /* NAV SECTION */
+section {
+    scroll-margin-top: 80px;
+}
+#home,
+#about,
+#services,
+#portfolio,
+#contact {
+    scroll-margin-top: 80px;
+}
+@media (max-width: 768px) {
+    section {
+        scroll-margin-top: 60px;
+    }
+}
 .nav-main{
     background-color: var(--white-color);
     display: flex;

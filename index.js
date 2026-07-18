@@ -53,6 +53,20 @@ window.addEventListener("scroll", ()=>{
 })
 
 
+document.querySelectorAll("[data-target]").forEach(link => {
+    link.addEventListener("click", e => {
+        e.preventDefault();
+
+        document.getElementById(link.dataset.target).scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+        });
+
+        history.replaceState(null, "", location.pathname);
+    });
+});
+
+
 // CONTACT FORM
 
 const form = document.getElementById("contact-form");
