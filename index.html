@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B&B Supervision & Shuttles</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9d77ad0b0b.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script>
+        emailjs.init({
+            publicKey: "7k0flvMKVJ8JWjhSi",
+        });
+    </script>
+</head>
+<body>
+        <div class="nav-main">
+          <div class="head-container">
+            <div class="logo">
+                <a class="logo-title" href="#">B&B Supervision & Shuttles</a>
+                
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-item">
+                    <li class="nav-list">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#services" class='nav-link' onClick="">Services</a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#about" class='nav-link' onClick="">About</a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#contact" class='nav-link' onClick="">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+              
+            <!--  -->
+            <div class="menu-toggle">
+                <div class="hamburger">
+                   <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+            <div class="close-toggle">
+                <div class="hamburger">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+          </div>
+        </div>
+
+    <header class="hero-container">
+        <div class="hero-section">
+            <h1 class="hero-title">Experienced Oilfield Supervision & Crew Transportation You Can Depend On</h1>
+            <p class="hero-text">Proudly Family-Owned. Proudly Indigenous-Owned. Delivering safe, reliable supervision, transportation, and field support services across Alberta.</p>
+            <div class="hero-btn-container">
+                    <a class="hero-link" href="#contact">Inquire Now</a>
+                    <a class="hero-link-two" href="#services">Our Services</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="icon-containers">
+        <div class="icon-section">
+            <div class="icon-info">
+                <img class="icon-images" src="./images/icons/time-left.png" alt="">
+                <p class="icon-text">55+</p>
+            </div>
+            <p class="icon-description">Years Experience</p>
+        </div>
+        <div class="icon-section">
+            <div class="icon-info">
+                <img class="icon-images" src="./images/icons/shield.png" alt="">
+                <p class="icon-text">Safety</p>
+            </div>
+            <p class="icon-description">First Approach</p>
+        </div>
+        <div class="icon-section">
+            <div class="icon-info">
+                <img class="icon-images" src="./images/icons/group-users.png" alt="">
+                <p class="icon-text">Family-Owned</p>
+            </div>
+            <p class="icon-description">Built on Relationships</p>
+        </div>
+        <div class="icon-section">
+            <div class="icon-info">
+                <img class="icon-images" src="./images/icons/feather.png" alt="">
+                <p class="icon-text">Indigenous-Owned</p>
+            </div>
+            <p class="icon-description">Long-term commitment</p>
+        </div>
+        <div class="icon-section">
+            <div class="icon-info">
+                <img class="icon-images" src="./images/icons/location.png" alt="">
+                <p class="icon-text">Alberta</p>
+            </div>
+            <p class="icon-description">Based & Operated</p>
+        </div>
+    </div>
+
+
+    <!-- SERVICES SECTION -->
+     <div class="services-container" id="services">
+        <div class="services-box">
+            <div class="services-title-container">
+                <h2 class="services-title">Our Services</h2>
+                <div class="hr-container">
+                    <hr>
+                </div>
+            </div>
+            <div class="services-content">
+                <div class="service-section">
+                    <div class="service-info">
+                        <img class="service-images" src="./images/services-icon/bus.png" alt="">
+                        <p class="service-text">Crew Transportation</p>
+                    </div>
+                    <p class="service-description">Reliable transportation solutions for oilfield personnel and equipment needs. B&B Shuttles provides safe, dependable service to help keep operations running smoothly.
+                    </p>
+                </div>
+                <div class="service-section">
+                    <div class="service-info">
+                        <img class="service-images" src="./images/services-icon/safety (1).png" alt="">
+                        <p class="service-text">Rig Supervision</p>
+                    </div>
+                    <p class="service-description">Providing experienced field oversight to support safe, efficient, and reliable rig operations. 
+                        B&B Supervision helps ensure work is completed according to site requirements and industry standards.
+                    </p>
+                </div>
+                <div class="service-section">
+                    <div class="service-info">
+                        <img class="service-images" src="./images/services-icon/oil-rig.png" alt="">
+                        <p class="service-text">Field Support Services</p>
+                    </div>
+                    <p class="service-description">Reliable support for oilfield, industrial, and infrastructure projects. 
+                        B&B Supervision provides dependable assistance to help keep operations safe, efficient, and running smoothly.
+                    </p>
+                </div>
+                <div class="service-section">
+                    <div class="service-info">
+                        <img class="service-images" src="./images/services-icon/safety-watch.png" alt="">
+                        <p class="service-text">Safety Watch</p>
+                    </div>
+                    <p class="service-description">Providing trained safety personnel to monitor work areas, identify hazards, and support safe operations during high-risk activities. 
+                        B&B Supervision helps protect workers and maintain compliance with site safety requirements.
+                    </p>
+                </div>
+            </div>
+        </div>
+     </div>
+
+
+     <!-- ABOUT SECTION -->
+    <div class="about-section" id="about">
+
+        <div class="about-container">
+            <div class="img-container">
+                <img class="about-img" src="./images/about/about-img.png" alt="">
+                <h2 class="img-text">Over 55 Years of Oilfield Experience. Proudly Family-Owned. Proudly Indigenous-Owned.</h2>
+            </div>
+            <div class="about-content">
+                <h2 class="about-title">About B&B Supervision & B&B Shuttles – 312670 Alberta Ltd.</h2>
+                <div class="about-info">
+                    <p class="about-description">
+                        B&B Supervision & B&B Shuttles is a proudly family-owned, Indigenous-owned Alberta company built on generations of hard work, integrity, and experience in the oil and gas industry.
+                        Our founder, Brian Baumann, began his oilfield career in 1969, working in the Arctic with M&R Trucking out of Drayton Valley, Alberta. 
+                        Those early years gave him invaluable hands-on experience and laid the foundation for a lifelong career in Alberta's energy sector.
+                    </p>
+                    <p class="about-description">
+                        In 1978, Brian purchased his first bed truck and became an owner-operator, providing dependable oilfield services throughout Drayton Valley and the surrounding areas. 
+                        Over the decades, he built a reputation for reliability, professionalism, and an unwavering commitment to safety, earning the trust of drilling companies and industry partners across Alberta.
+                    </p>
+                    <p class="about-description">
+                        In 2002, Brian expanded his business by launching B&B Shuttles, providing safe and dependable transportation for drilling crews traveling to and from rig sites. 
+                        As the needs of the industry evolved, the company also expanded into rig supervision and field support services, continuing to provide the same reliable service clients had come to expect.
+                    </p>
+                    <p class="about-description">
+                        Today, B&B continues to support Alberta's oil and gas industry while positioning itself for growth in additional sectors, including industrial services, construction, infrastructure, transportation, and other field support opportunities.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- FAMILY SECTION -->
+        <div class="family-legacy-container">
+            <h2 class="about-title">A Family Legacy</h2>
+            <p class="legacy-text">B&B has always been more than a business. It's a family legacy.</p>
+            <p class="legacy-text">
+                Brian is especially proud that one of his daughters worked alongside him throughout her entire career, helping build the company into what it is today. 
+                Today, another daughter has joined the business, continuing the family's commitment to delivering dependable service, while other family members, including his son-in-law, have also played an important role in the company's success.
+            </p>
+        </div>
+        <div class="icon-containers">
+            <!-- <div class="icon-section">
+                <div class="icon-info">
+                    <img class="icon-images" src="./images/icons/time-left.png" alt="">
+                    <p class="icon-text">55+</p>
+                </div>
+                <p class="icon-description">Years Experience</p>
+            </div> -->
+            <div class="icon-section">
+                <div class="icon-info">
+                    <img class="icon-images" src="./images/icons/group-users.png" alt="">
+                    <p class="icon-text">Family-Owned</p>
+                </div>
+                <p class="icon-description">Built Together</p>
+            </div>
+
+            <div class="icon-section">
+                <div class="icon-info">
+                    <img class="icon-images" src="./images/icons/shield.png" alt="">
+                    <p class="icon-text">Respect</p>
+                </div>
+                <p class="icon-description">People first</p>
+            </div>
+            
+            <div class="icon-section">
+                <div class="icon-info">
+                    <img class="icon-images" src="./images/icons/relationships.png" alt="">
+                    <p class="icon-text">Relationship</p>
+                </div>
+                <p class="icon-description">Long-term partnerships</p>
+            </div>
+            <div class="icon-section">
+                <div class="icon-info">
+                    <img class="icon-images" src="./images/icons/location.png" alt="">
+                    <p class="icon-text">Alberta</p>
+                </div>
+                <p class="icon-description">Local roots</p>
+            </div>
+        </div>
+
+
+        <!-- COMMITMENT SECTION -->
+        <div class="family-legacy-container">
+            <h2 class="about-title">Our Commitment</h2>
+            <p class="legacy-text">B&B has always been more than a business. It's a family legacy.</p>
+            <p class="legacy-text">
+                At B&B Supervision & B&B Shuttles, safety is more than a policy. It is the foundation of every job we take on.
+                Whether transporting drilling crews, providing rig supervision, or supporting future industrial projects, our commitment remains the same:
+
+            </p>
+            <ul class="commitment-list">
+                <li>Safety First</li>
+                <li>Reliable Service</li>
+                <li>Experienced Leadership</li>
+                <li>Strong Family Values</li>
+                <li>Proudly Indigenous-Owned</li>
+                <li>Building Long-Term Partnerships</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- CALL TO ACTION -->
+     <div class="cta-section">
+        <div class="cta-container">
+            <h2 class="cta-title">Partner With a Team You Can Trust</h2>
+            <p class="cta-description">
+                B&B Supervision & B&B Shuttles provides dependable supervision, transportation, and field support backed by decades of hands-on industry experience and a commitment to safety.
+            </p>
+            <button class="cta-btn">Contact Us</button>
+        </div>
+     </div>
+
+
+
+     <!--CONTACT FORM SECTION -->
+    <section class='contact-main' id="contact">
+           <div class="contact-form-section">
+
+        <div class="form-header">
+            <h2 class="contact-form-title">
+                Got any questions?<br>
+                Feel free to send us a message!
+            </h2>
+        </div>
+
+        <div class="form-container">
+
+            <form id="contact-form">
+
+                <div class="fname-input">
+                    <input
+                        class="fname"
+                        type="text"
+                        name="user_name"
+                        id="fname"
+                        placeholder="Enter Your Full Name">
+
+                    <small class="error" id="name-error"></small>
+                </div>
+
+                <div class="email-input">
+                    <input
+                        class="email"
+                        type="email"
+                        name="user_email"
+                        id="email"
+                        placeholder="Enter Your Email">
+
+                    <small class="error" id="email-error"></small>
+                </div>
+
+                <div class="number-input">
+                    <input
+                        class="number"
+                        type="text"
+                        name="user_number"
+                        id="number"
+                        placeholder="Enter Your Phone Number">
+
+                    <small class="error" id="phone-error"></small>
+                </div>
+
+                <div class="message-input">
+                    <textarea
+                        class="message"
+                        name="message"
+                        id="message"
+                        rows="6"
+                        placeholder="Please give a brief description of your question"></textarea>
+
+                    <small class="error" id="message-error"></small>
+                </div>
+
+                <div class="form-btn-container">
+                    <button class="form-btn" type="submit">
+                        Submit
+                    </button>
+                </div>
+
+                <p id="status"></p>
+
+            </form>
+
+        </div>
+
+    </div>
+        <div class="contact-details">
+            <div class="contact-info">
+                <h3>Address</h3>
+                <p class='contact-address'>4924 46 St</p>
+                <p class='contact-address'>Drayton Valley, AB</p>
+            </div>
+            <div class="contact-info">
+                <h3>Phone</h3>
+                <p class='contact-text'>780-937-8586</p>
+            </div>
+            <div class="contact-info">
+                <h3>Email</h3>
+                <p class='contact-text'>bbaumann@telus.net</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- FOOTER SECTION -->
+     <div class="footer-section">
+        <div class="footer-info">
+            <div class="footer-business">
+                <p class="footer-title business-footer-title">B&B Supervision & B&B Shuttles – 312670 Alberta Ltd.</p>
+                <p class="business-footer-text">Over 55 Years of Oilfield Experience. Proudly Family-Owned. Proudly Indigenous-Owned.</p>
+            </div>
+            <div class="footer-location">
+                <p class="footer-title ">Our Locations</p>
+                <p>4924 46 St</p>
+                <p>Drayton Valley, AB</p>
+            </div>
+            <div class="footer-links">
+                <p class="footer-title">Quick Links</p>
+                <ul class="footer-item">
+                    <li class="footer-list">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="footer-list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer-list">
+                        <a href="#services">Services</a>
+                    </li>
+                    <li class="footer-list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <p class="footer-title">Contact Us</p>
+                <!-- <p class="footer-text">Lorem ipsum dolor sit amet, consectetur adipis elit, sed do eiusmod tempo nulla</p> -->
+                <p class="footer-phone">780-937-8586</p>
+                <p class="footer-email">bbaumann@telus.net</p>
+            </div>
+        </div>
+
+     </div>
+<script src="index.js"></script>
+</body>
+</html>
