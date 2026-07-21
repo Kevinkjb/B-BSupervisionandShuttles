@@ -749,10 +749,18 @@ section {
     cursor: pointer;
     transition: all .3s ease;
         font-family: var(--main-font);
+            display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .cta-btn:hover{
     background-color: transparent;
     border: 2px solid var(--white-color);
+}
+.cta-link{
+    color: var(--white-color);
+    text-decoration: none;
+
 }
 
 @media screen and (max-width: 1200px) {
