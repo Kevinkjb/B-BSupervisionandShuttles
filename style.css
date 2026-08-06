@@ -1155,5 +1155,24 @@ textarea.error-input {
 
 }
 
-/* FOOTER SECTION */
+/* COPYRIGHTS SECTION */
 
+.copyrights-section{
+    font-family: var(--main-font);
+    padding: .5rem;
+    text-align: center;
+    background-color: var(--gray-background);
+    color: var(--white-color);
+    font-size: .8rem;
+    max-width: 100%;
+}
+.copyright-text{
+    line-height: 1.5;
+}
+.copyrights-link{
+    color: var(--main-pink-color);
+
+}
+.copyrights-link:hover{
+    color: var(--white-color);
+}
